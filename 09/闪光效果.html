@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #jd{
+            width: 523px;
+            height: 617px;
+            margin: 0 auto;
+            border: 1px solid black;
+            background: url(3.png) no-repeat;
+            position: relative;
+            overflow: hidden;
+        }
+        #jd .flash{
+            width: 40px;
+            height: 617px;
+            background: -webkit-linear-gradient(left,transparent,rgba(255,255,255,0.6),transparent);
+            position: absolute;
+            top: 0;
+            left: -220px;
+            transform: skew(-30deg,0);
+
+        }
+        #jd:hover .flash{
+            left: 700px;
+            transition: left 1s;
+        }
+    </style>
+</head>
+<body>
+    <div id="jd">
+        <div class="flash"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 150px;
+            animation: run 3s linear infinite;
+            /*设置旋转基准点*/
+            transform-origin: 0% 50%;
+            border: 1px solid black;
+        }
+        @keyframes run {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="箭头.jpg">
+</body>
+</html>

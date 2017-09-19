@@ -22,18 +22,130 @@ html,body{
 /*第一屏*/
 #container .box.one{
     position: relative;
+    overflow: hidden;
 }
-#container .box.one h1{
-    width: 60%;
-    color: white;
-    background: darkcyan;
+#container .box.one .bgm1{
+    width: 100%;
+    height: 58%;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm2{
+    width: 100%;
+    height: 58%;
     position: absolute;
-    top: 10%;
-    left: 50%;
-    font-size: 4vw;
-    line-height: 1.5em;
-    text-align: center;
-    transform: translateX(-50%);
-    animation-delay: 2s;
-    animation-duration: 5s;
+    top: 0px;
+    left: 0px;
+    /*display: block;*/
+    animation-delay: 1s;
+    animation-duration: 1s;
 }
+#container .box.one .bgm3{
+    width: 23%;
+    height: 24%;
+    position: absolute;
+    bottom: 17%;
+    right: 11%;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm4{
+    width: 16px;
+    height: 73px;
+    position: absolute;
+    bottom: 21%;
+    right: 26%;
+    animation-delay: 1.5s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm5{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    bottom: 33%;
+    right: 16%;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm6{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    bottom: 28%;
+    right: 16%;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm7{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    bottom: 23%;
+    right: 16%;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm8{
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    bottom: 18%;
+    right: 16%;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm9{
+    width: 23px;
+    height: 104px;
+    position: absolute;
+    bottom: 20%;
+    left: 38%;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm10{
+    width: 15px;
+    height: 105px;
+    position: absolute;
+    bottom: 20%;
+    left: 29%;
+    animation-delay: 2.8s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm11{
+    width: 14px;
+    height: 90px;
+    position: absolute;
+    bottom: 22%;
+    left: 20%;
+    animation-delay: 3.1s;
+    animation-duration: 1s;
+}
+#container .box.one .bgm12{
+    width: 14px;
+    height: 104px;
+    position: absolute;
+    bottom: 20%;
+    left: 11%;
+    animation-delay: 3.4s;
+    animation-duration: 1s;
+}
+
+
+
+#container .box.one .el-text{
+    width: 320px;
+    height: 36px;
+    position: absolute;
+    bottom: 6%;
+    left: 16%;
+    font-family: 楷体;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    line-height: 1.5;
+    animation-delay: 3.8s;
+    animation-duration: 1s;
+}
+/*第一屏结束*/
+

@@ -155,7 +155,7 @@ html,body{
 }
 #container .box.two .ch1{
     width: 80%;
-    height: 89%;
+    height: 83%;
     background-color: whitesmoke;
     margin: 10% auto 0;
     animation-delay: 0s;
@@ -252,3 +252,96 @@ html,body{
     animation-duration: 1s;
 }
 /*第二屏结束*/
+
+/*第三屏*/
+#container .box.three{
+    position: relative;
+    overflow: hidden;
+}
+#container .box.three .wenzi{
+    width: 73%;
+    height: 2%;
+    position: absolute;
+    top: 7%;
+    left: 13%;
+    animation-delay: 0.2s;
+    animation-duration: 1s;
+}
+#container .box.three .ch1{
+    width: 36%;
+    height: 32%;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+#container .box.three .ch1 .im{
+    width: 84%;
+    height: 88%;
+    margin: 9% 8% auto;
+    animation-delay: 1.3s;
+    animation-duration: 1s;
+}
+#container .box.three .ch2{
+    width: 36%;
+    height: 32%;
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+}
+#container .box.three .ch2 .im{
+    width: 84%;
+    height: 88%;
+    margin: 9% 8% auto;
+    animation-delay: 1.7s;
+    animation-duration: 1s;
+}
+#container .box.three .ch3{
+    width: 36%;
+    height: 32%;
+    position: absolute;
+    bottom: 18%;
+    left: 10%;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+}
+#container .box.three .ch3 .im{
+    width: 84%;
+    height: 88%;
+    margin: 9% 8% auto;
+    animation-delay: 2s;
+    animation-duration: 1s;
+}
+#container .box.three .ch4{
+    width: 36%;
+    height: 32%;
+    position: absolute;
+    bottom: 18%;
+    right: 10%;
+    animation-delay: 0.9s;
+    animation-duration: 1s;
+}
+#container .box.three .ch4 .im{
+    width: 84%;
+    height: 88%;
+    margin: 9% 8% auto;
+    animation-delay: 2.4s;
+    animation-duration: 1s;
+}
+#container .box.three .ch5{
+    width: 40%;
+    height: 14%;
+    font-family: 华文新魏;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    line-height: 1.8;
+    position: absolute;
+    bottom: 2%;
+    left: 28%;
+    animation-delay: 2.8s;
+    animation-duration: 1s;
+}

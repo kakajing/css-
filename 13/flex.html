@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #hd{
+            width: 80%;
+            border: 4px solid orange;
+            height: 500px;
+            margin: 10px auto;
+            /*指定容器里面的项目排列方式为弹性布局*/
+            display: flex;
+        }
+        #hd >div{
+            width: 180px;
+            height: 200px;
+            background: dodgerblue;
+            border: 1px solid purple;
+            /*float: right;*/
+        }
+    </style>
+</head>
+<body>
+    <!--flex里的项目，总宽度如果不超过父级宽度，那么就正常横向排列（类似于float的效果）-->
+    <!--flex里的项目，总宽度如果超过父级宽度，那么加给项目的宽度就无效了，每个项目的宽度会自动均分-->
+    <div id="hd">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

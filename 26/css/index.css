@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*顶部搜索*/
+#top{
+    background: #FE5400;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+}
+#top i.iconfont.icon-tao{
+    color: white;
+    font-size: 8vw;
+    float: left;
+    margin-left: 2%;
+}
+#top .search{
+    width: 87%;
+    display: block;
+    margin-left: 1%;
+    background: #B52600;
+    text-align: center;
+    color: #F0E0DC;
+    float: left;
+    line-height: 1.8em;
+    text-decoration: none;
+    font-size: 4vw;
+    border-radius: 5px;
+}
+#top .search i.iconfont.icon-search{
+    font-size: 5vw;
+}
+
+/*轮播图*/
+.swiper-container{
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.swiper-container .swiper-wrapper .swiper-slide>img{
+    display: block;
+    width: 100%;
+}
+
+/*图标列表区*/
+#iconlist{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#iconlist>li{
+    width: 19%;
+    list-style: none;
+    display: block;
+    margin: 3% 0 auto;
+}
+#iconlist>li img{
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#iconlist>li a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 2vw;
+    line-height: 2em;
+}
+
+/*淘宝头条*/
+#toutiao{
+    width: 100%;
+    overflow: hidden;
+    border-top: 2px solid aliceblue;
+    border-bottom: 10px solid aliceblue;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+#toutiao .left{
+    width: 22%;
+    border-right: 1px solid aliceblue;
+    padding-right: 3%;
+    float: left;
+    margin-left: 2%;
+}
+#toutiao span.tt{
+    border: 1px solid rgb(216, 20, 33);
+    border-radius: 30%;
+    float: left;
+    padding: 2px;
+    font-size: 4vw;
+    color: rgb(216, 20, 33);
+    margin-left: 2%;
+}
+#toutiao a{
+    font-size: 4vw;
+    width: 55%;
+    color: rgb(53, 53, 53);
+    margin-left: 2%;
+    white-space: nowrap;
+    float: left;
+    text-overflow: ellipsis;
+    line-height: 1.7em;
+}
+#footer{
+    width: 100%;
+    padding: 10px 0 6px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#footer>li{
+    width: 19%;
+    list-style: none;
+    display: block;
+    margin: 3% 0 auto;
+}
+#footer>li a.icon{
+    color: #5D656B;
+    font-size: 6vw;
+    float: left;
+    margin-left: 1%;
+}
+#footer>li a.text{
+    color: #5D656B;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 2vw;
+    line-height: 2em;
+}
+
+
+
